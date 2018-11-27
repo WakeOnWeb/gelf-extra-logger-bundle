@@ -1,0 +1,22 @@
+{
+    "name": "wakeonweb/gelf-extra-logger-bundle",
+    "type": "library",
+    "description": "WakeOnWeb Gelf extra logger",
+    "keywords": [ "monolog", "log", "gelf" ],
+    "homepage": "https://github.com/WakeOnWeb/gelf-extra-logger-bundle",
+    "license": "mit",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wakeonweb\\GelfExtraLogger\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
